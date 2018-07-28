@@ -46,7 +46,6 @@ public class fetchData extends AsyncTask<Void,Void,Void> {
                         "Location Type: " + JO.get("location_type") + "\n"+
                         "Where On Earth IDentifier: " + JO.get("woeid") + "\n"+
                         "Latitude, Longitude: " + JO.get("latt_long") + "\n";
-//                        "Distance: " + JO.get("distance") + "\n"
 
                 dataParsed = dataParsed + singleParsed;
             }
