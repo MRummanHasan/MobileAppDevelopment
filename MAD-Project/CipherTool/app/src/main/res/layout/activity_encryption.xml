@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Encryption"
+    android:background="@drawable/defaultscreen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="81dp"
+        android:text="PLANE TEXT"
+        android:textColor="@color/txtcolor"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editPT"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignStart="@+id/editK"
+        android:ems="10"
+        android:hint="PLANE TEXT"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editK"
+        android:layout_alignStart="@+id/editShow"
+        android:text="KEY"
+        android:textColor="@color/txtcolor"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editK"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginTop="132dp"
+        android:ems="10"
+        android:hint="KEY"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editShow"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="-11dp"
+        android:layout_marginTop="203dp"
+        android:text="Auto Generate key" />
+
+    <Button
+        android:id="@+id/btnEnc"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="246dp"
+        android:text="ENCRYPT" />
+
+    <EditText
+        android:id="@+id/editShow"
+        android:layout_width="311dp"
+        android:layout_height="113dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="107dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="26dp"
+        android:text="BACK" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="ENCRYPTION"
+        android:textColor="@color/txtcolor"
+        android:textSize="20dp"/>
+</RelativeLayout>
