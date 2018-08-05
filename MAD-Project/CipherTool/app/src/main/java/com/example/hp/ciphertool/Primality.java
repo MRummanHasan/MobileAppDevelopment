@@ -23,14 +23,10 @@ public class Primality extends AppCompatActivity {
         txtValue = findViewById(R.id.editText5);
         txtResult = findViewById(R.id.editText6);
 
-
-
-
         BtnCheck.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         ////////////
-
                         strnumber = txtValue.getText().toString();
                         int temp;
                         int number=0;
@@ -65,7 +61,6 @@ public class Primality extends AppCompatActivity {
                             txtResult.setText(num + " is not a Prime Number");
                             //System.out.println();
                         //////////////
-
                     }
                 });
 
